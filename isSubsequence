@@ -1,0 +1,18 @@
+String one="kaviya",two="voy";
+		
+		int i=0,j=0;
+		
+		while(i<one.length() && j<two.length())
+		{
+			if(one.charAt(i)==two.charAt(j))
+			{
+				i++;
+				j++;
+				continue;
+			}
+			i++;
+		}
+		if(j==two.length())
+		{
+			System.out.println(true);
+		}
