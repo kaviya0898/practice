@@ -1,0 +1,14 @@
+Scanner scanner=new Scanner(System.in);
+		
+		String str="ZY";
+		int k=1,index=str.length()-1,answer=0;
+		
+		while(index>=0)
+		{
+			answer+=((str.charAt(index)-'@')*k);
+			k*=26;
+			index--;
+		}
+		
+		System.out.println(answer);
+	}
