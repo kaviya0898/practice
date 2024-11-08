@@ -2,7 +2,7 @@
      
     	String str="234";
     	int number=Integer.parseInt(str);
-    	String options[]= {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
+    	String options[]= {"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz","hgfjfg"};
     	printCombination(number,"",options);
     	
 	}
